@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  border: 3px solid red;
+}
+.header{
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid black; */
+  background-color:rgb(133, 217, 204);
+  text-align: center;
+  padding: 12px;
+}
+.header>p>a{
+  color: rgb(37, 121, 79);
+  font-weight: bold;
+}
+.main-nav{
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(232, 212, 84);
+  /* border: 2px solid red; */
+}
+.main-nav>ul{
+  float: right;
+}
+.main-nav>a>img{
+  width: 250px;
+  height: 120px;
+}
+.main-nav>a>img{
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.main-nav>ul>li{
+  display: inline-block;
+  padding: 50px 30px;
+}
+.main-nav>ul>li:nth-child(4){
+  padding-right: 100px;
+}
+.main-nav>ul>li:last-child{
+  padding-right: 60px;
+}
+.main-nav>ul>li>a{
+  text-decoration: none;
+  color: black;
+}
+.container-1{
+  width: 100%;
+  height: 700px;
+  border: 2px solid green;
+  display: flex;
+}
+.container-1>.content-1{
+  width: 50%;
+  height: 700px;
+  border: 2px solid blue;
+}
+.container-1>.sidebar-1{
+  width: 50%;
+  height: 700px;
+  border: 2px solid blue;
+}
+.container-2{
+  width: 100%;
+  height: 700px;
+  border: 2px solid green;
+  display: flex;
+}
+.container-2>.content-2{
+  width: 50%;
+  height: 700px;
+  border: 2px solid blue;
+}
+.container-2>.sidebar-2{
+  width: 50%;
+  height: 700px;
+  border: 2px solid blue;
+}
+.container-3{
+  width: 100%;
+  height: 700px;
+  border: 2px solid green;
+}
+.container-3>.content-3{
+  width: 100%;
+  height: 700px;
+  border: 2px solid blue;
+}
+.container-4{
+  width: 100%;
+  height: 700px;
+  border: 2px solid green;
+}
+.container-5{
+    width: 100%;
+    height: 700px;
+    border: 2px solid green;
+}
+.container-6{
+  width: 100%;
+    height: 700px;
+    border: 2px solid green;
+}
+.container-7{
+  width: 100%;
+  height: 500px;
+  border: 2px solid green
+}
+.container-8{
+  width: 100%;
+  height: 700px;
+  border: 2px solid green;
+}
+.container-9{
+  width: 100%;
+  height: 700px;
+  border: green;
+}
+.footer{
+  width: 100%;
+  height: 600px;
+  border: 2px solid green;
+}
